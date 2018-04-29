@@ -1,17 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Anita's Kitchen</title>
         <meta charset="utf-8">
-        <link rel="shortcut icon" href="img/cofeeicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat">
-        <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
-        <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-
+        <link rel="shortcut icon" href="img/coffie.icon .png">.
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
     <body>
 <!--NAVIGATION BAR-->
@@ -20,29 +15,28 @@
 
 <!--MEDIA-->
     <div class="col-md-12 media">
-        <div class="col-md-12 overlay">
             <div class="men">
+                <div class="overlay-content">
                 <div id="myNav" class="overlayMenu">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <div class="overlay-content">
                     <a href="#">Contacts</a>
                     <a href="#">Events</a>
                     <a href="#">Menu</a>
                   </div>
                 </div>
-                <span style="font-size:50px;cursor:pointer;color:#ffffff;" onclick="openNav()">&#9776; </span>
-
             </div>
             <p class="logo"><img src="img/logoBig.png"  class="img-responsive" style="display:inline" alt="Dinner" width="400" height="400"></p>
+            <div class="col-md-12 overlay">
             <h1 class="header">We Provide The Best Food<br/> At The <b>Right Price</b></h1>
-        </div>
+            </div>
     </div>
 
 <!--END MEDIA-->
 
 <!--HAPPY-->
 <div class="container-fluid">
-<div class="row">
+<div id="back">
+  <img src="anita-kitchen/mpft-ip2/assets/logoBig.png" rel="logos photo">
     <div class="col-md-3 bg-1">
     <!---happyhour----->
         <div class="col-md-12 bg-0">
@@ -55,27 +49,27 @@
             <div class="happy">
                 <div class="text">Party Time</div>
             </div>
+          </div>
         </div>
-    </div>
     <!---breakfast----->
     <div class="col-md-3 bg-1">
-        <img src="img/breakfast.jpg"  class="img-responsive" style="display:inline" alt="Breakfast" width="100%" height="100%">
-        <div class="overlay-mini">
             <div class="text">Breakfast</div>
+              <img src="img/foodtop/breakfast.jpg" class="img-responsive" style="display:inline" alt="Breakfast" width="100%" height="100%">
+                <div class="overlay-mini">
         </div>
     </div>
     <!---Lunch----->
     <div class="col-md-3 bg-1">
-        <img src="img/lunch.jpg"  class="img-responsive" style="display:inline" alt="Lunch" width="100%" height="100%">
-        <div class="overlay-mini">
             <div class="text">Lunch</div>
+              <img src="img/foodtop/lunch.jpg" class="img-responsive" style="display:inline" alt="Lunch" width="100%" height="100%">
+                <div class="overlay-mini">
         </div>
-    </div>
+      </div>
     <!---dinner----->
     <div class="col-md-3 bg-1">
-        <img src="img/dinner.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="100%" height="100%">
-        <div class="overlay-mini">
             <div class="text">Dinner</div>
+            <img src="img/foodtop/dinner.jpg" class="img-responsive" style="display:inline" alt="Dinner" width="100%" height="100%">
+              <div class="overlay-mini">
         </div>
     </div>
 </div>
@@ -87,8 +81,8 @@
     <div class="row">
         <div class="col-md-6 bg-1">
             <div class="fasts">
-                <img src="img/fastFood1.jpg"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-                <img src="img/fastFood2.jpg"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+                <img src="img/fastFood1.jpg" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+                <img src="img/fastFood2.jpg" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
             </div>
         </div>
         <div class="col-md-6 bg-1">
@@ -141,12 +135,12 @@
       <div class="partyhead">
 
       </div>
-		<div id="burger">
-		<img src="img/fastfood/beefBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-		<img src="img/fastfood/chickenBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-		<img src="img/fastfood/chickenPizza.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
-        </div>
-    </div>
+ <div id="burger">
+ <img src="img/fastfood/beefBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+ <img src="img/fastfood/chickenBurger.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+ <img src="img/fastfood/chickenPizza.jpg"  class="img-responsive" style="display:inline" alt="Dinner" width="" height="">
+     </div>
+ </div>
 </div>
 
 <!--END PARTY-->
@@ -156,7 +150,7 @@
     <div class="row">
         <div class="col-md-12 bg-1">
          <div class="col-md-12 cust">
-        <div class="col-md-8 bg-1">
+        <div class="col-md-4 bg-1">
             <div id="text3">
                 <h2 style="color:#F15A29;">Our Happy Customers</h2>
                 <h3>George Richard</h3>
@@ -167,59 +161,59 @@
                 <img src="img/customers/p1.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
                 <img src="img/customers/p2.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
                 <img src="img/customers/p3.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><span style="font-size:30px;color:#F15A29;"> &#8250;</span>
-            </div>
-        </div>
-        <div class="col-md-4 bg-1">
-            <div id="text3">
-                <h2 style="color:#F15A29;">About Menu</h2>
-                <p>Data Structures are the programmatic way of storing data so that data can be used
-                efficiently. Almost every enterprise application uses various types of data structures in one
-                or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
-            </div>
-             </div></div>
-      </div>
+              </div>
+</div>
+<div class="col-md-4 bg-1">
+    <div id="text3">
+        <h2 style="color:#F15A29;">About Menu</h2>
+        <p>Data Structures are the programmatic way of storing data so that data can be used
+        efficiently. Almost every enterprise application uses various types of data structures in one
+        or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.Data Structures are the programmatic way of storing data so that data can be usedefficiently. Almost every enterprise application uses various types of data structures in one or the other way.</p>
     </div>
+     </div></div>
+</div>
+</div>
 </div>
 <!--END CUSTOMERS-->
 
 <!--MAIL-->
 <div class="col-md-12 media3">
-    <h1 class="textt">Get our daily food items delivered to your email</h1>
-    <div class="mail">
-        <form action="">
-            <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-            <a href="#" class="formButton">Subscribe</a>
-      </form>
-    </div>
+<h1 class="text">Get our daily food items delivered to your email</h1>
+<div class="mail">
+<form action="">
+    <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+    <a href="#" class="formButton">Subscribe</a>
+</form>
+</div>
 </div>
 <!--END MAIL-->
 
 <!--FOOTER-->
 <div class="col-md-12 footer">
-    <div class="social">
-        <h1 style="color:#ffffff;"><img src="images/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
-        <h3>Thats What We Are</h3><br/>
-        <img src="images/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-        <img src="images/twitter.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
-        <img src="images/pinterest.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
-        <h4>2016 Menu Restaurant</4>
-    </div>
+<div class="social">
+<img src="img/footerlogos/logo_white.png"  class="img-responsive" style="display:inline"alt="fastfood" width="" height=""> MENU</h1>
+<h3>Thats What We Are</h3><br/>
+<img src="img/footerlogos/facebook.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+<img src="img/footerlogos/twitter.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+<img src="img/footerlogos/pinterest.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
+<h4>2016 Menu Restaurant</4>
+</div>
 </div>
 <!--END FOOTER-->
 
 <!---Clickable menu scripts--->
 <script>
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+document.getElementById("myNav").style.width = "100%";
 }
 function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
+document.getElementById("myNav").style.width = "0%";
 }
 </script>
 <!---Clickable menu scripts--->
 <!--Bootstrap scripts-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 
-    </body>
+</body>
 </html>
